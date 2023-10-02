@@ -1,4 +1,68 @@
 header{
-    height: 30vh;
+    min-height: 7vh;
     background-color: darkslategrey;
+}
+.jumbotron{
+    min-height: 50vh;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-container{
+    width: 70vw;
+    min-height: 40vh;
+    background-color: beige;
+    display: flex;
+}
+.lft-jumb-sd{
+    width: 40%;
+    height: 287px;
+    background-color: black;
+}
+.rgt-jumb-sd{
+    width: 60%;
+    height: 287px;
+    background-color: blueviolet;
+}
+
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50vw;
+    min-height: 80vh;
+    background-color: darkslateblue;
+    display:flex;
+}
+.col-cont{
+    width: 100
+    min-height: 70v
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: calc((100% / 3) - 20px);
+    min-height: 60vh;
+    background-color: darkseagreen;
+}
+span{
+    text-align: center;
+}
+.enter-lft{
+    width: 70%;
+    min-height: 20vh;
+    background-color: bisque;
+}
+.enter-rgt{
+    width: 30%;
+    min-height: 20vh;
+    background-color: dimgrey;
+}
+.partner-lft{
+    width: ;
 }
