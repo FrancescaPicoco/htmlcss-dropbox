@@ -34,13 +34,12 @@ header{
 
 .container{
     width: 50vw;
-    min-height: 80vh;
+    min-height: 30vh;
     background-color: darkslateblue;
     display:flex;
+    margin-bottom: 30px;
 }
 .col-cont{
-    width: 100
-    min-height: 70v
     background-color: cadetblue;
     display: flex;
     justify-content: space-between;
@@ -56,13 +55,53 @@ span{
 .enter-lft{
     width: 70%;
     min-height: 20vh;
-    background-color: bisque;
+    background-color: cadetblue;
 }
 .enter-rgt{
     width: 30%;
     min-height: 20vh;
-    background-color: dimgrey;
+    background-color: rgb(99, 82, 118);
 }
 .partner-lft{
-    width: ;
+    width: 60%;
+    min-height: 10vh;
+    background-color: rgb(99, 82, 118);
+}
+.partner-rgt{
+    width: 40%;
+    min-height: 10vh;
+    background-color: cadetblue;
+}
+.card{
+    width: calc((100% / 3) - 10px);
+    min-height: 20vh;
+    background-color: darkseagreen;
+    border: 1px solid black;
+}
+.card-bott-text{
+    margin: 50px 0;
+}
+.squares{
+    width: 100%;
+    height: 30vh;
+    background-color: blueviolet;
+}
+.big-square{
+    width: calc(100% / 3);
+    /*height:30vh*/
+    border: 3px solid white;
+    background-color: cadetblue;
+}
+.lttle{
+    width: 50%;
+    height: 15vh;
+    background-color: olivedrab;
+    border: 1px solid white;
+}
+.scroll-txt{
+    overflow: auto;
+}
+
+.prova-gratuita{
+    background-color: lightslategray;
 }
