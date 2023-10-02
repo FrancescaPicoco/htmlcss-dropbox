@@ -1,29 +1,42 @@
 header{
     min-height: 7vh;
-    background-color: darkslategrey;
+    /*background-color: darkslategrey;*/
 }
 .jumbotron{
     min-height: 50vh;
-    background-color: lightslategray;
+    background-color:cornflowerblue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .big-container{
-    width: 70vw;
+    width: 60vw;
     min-height: 5vh;
-    background-color: darkseagreen;
+    /*background-color: darkseagreen;*/
     display: flex;
+}
+h1{
+    font-size: 50px;
+}
+.jumb-cont{
+    width: 100%;
+    height:  287px;
 }
 .lft-jumb-sd{
     width: 40%;
     height: 287px;
-    background-color: black;
+}
+.start{
+    display: block;
 }
 .rgt-jumb-sd{
     width: 60%;
     height: 287px;
     background-color:steelblue;
+}
+.Jumbo{
+    width: 100%;
+    padding-top: 30px;
 }
 
 .plan{
@@ -117,6 +130,9 @@ h2{
 }
 footer{
     width: 100%;
-    height: 20vh;
+    min-height: 20vh;
     background-color: cornflowerblue;
+}
+.foot-column{
+    padding: 5vh;
 }

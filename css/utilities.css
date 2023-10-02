@@ -8,8 +8,9 @@
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
   }
-  body{background-color : rgb(116, 116, 116);
+  body{
       font-family: 'Inclusive Sans', sans-serif;}
   
   
@@ -46,29 +47,32 @@
   .w10{width: 10px;}
   .w-h20 {width: 20px;
           height: 20px;}
-  .w25{width: 25;}       
+  .w25{width: 25;}
+  
+     /*Colors*/
   .gray{background-color: gray;}
   .black{background-color: black}
   .white{color: white;}
-  {background-color:rgb(246, 246, 246);}
   
      /*Margin*/
   .mt-5{margin-top: 5px;}
   .mb-5{margin-bottom: 5px;}
-  .mbt-5{margin-top: 5px;
-          margin-bottom: 5px;}
-  .mr-5{margin-right: 5px;} 
-  .mbtr-5{margin-top: 5px;
-        margin-bottom: 5px;
-        margin-right: 5px;}
-        
-  .mt-10{margin-top: 10px;}      
+  .mtb-5{margin-top: 5px 0;}
+  .mr-5{margin-right: 5px;}
+  .ml-5{margin-left: 5px;}        
+  .mt-10{margin-top: 10px;} 
+  .mb-10{margin-bottom: 10px;} 
+  .ml-15{margin-left: 15px;}  
+  .mr-15{margin-right: 15px;}  
   .mt-20{margin-top: 20px;}
+  .mb-20{margin-bottom: 20px;}
   
        /*Padding*/
   
   .padd{padding: 5px;} 
+  .pdd-lft{ padding-left: 5px;}
   .px{padding:0 3px;} 
+  .ptb-20{ padding: 20px 0;}
   .pt-30{padding-top: 30px;}  
   .pb-100{padding-bottom: 100px;} 
       /*Text Details*/
@@ -81,4 +85,4 @@
   i{color: white;}
     /***Link Style***/
   a{text-decoration: none;
-    color:white;}
+    color:black;}
