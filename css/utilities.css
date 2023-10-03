@@ -76,6 +76,8 @@
   .mtb-15{margin: 15px 0;} 
   .mt-20{margin-top: 20px;}
   .mb-20{margin-bottom: 20px;}
+  .mtb-20{margin-top: 20px;
+          margin-bottom: 20px;}
   .ml-30{margin-left: 30px;}
   .mtb-30{margin: 30px 0;}
   .mt-50{margin-top: 50px;}
@@ -85,7 +87,8 @@
   
        /*Padding*/
   
-  .padd{padding: 5px;}
+  .pdd-5{padding: 5px;}
+  .pdd-30{padding: 30px;}
   .pr-5{padding-right: 5px;}
   .p-angle{padding: 5px 5px 0 5px}
   .pt-5{padding-top: 5px;}
