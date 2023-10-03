@@ -4,7 +4,6 @@
     <link rel="stylesheet" type="text/css" href="css/utilities.css">
     ****/
 
-
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,9 +44,8 @@
   
      /*width in Px*/
   .w10{width: 10px;}
-  .w-h20 {width: 20px;
-          height: 20px;}
-  .w25{width: 25;}
+  .w25{width: 25px;}
+  .w50{width: 50px;}
   
      /*Colors*/
   
@@ -55,6 +53,14 @@
   .gray{background-color: gray;}
   .white{color: white;}
   .darkseagreen{background-color: darkseagreen;}
+  .brown{background-color:brown;}
+  .dodgerblue{background-color: dodgerblue;}
+  .crimson{background-color: crimson;}
+  .red{background-color: red;}
+  .lightblue{background-color:lightblue;}
+  .darkblue{background-color: darkblue;}
+  .gold{background-color: gold;}
+  .lightgray{background-color:lightgray;}
   
      /*Margin*/
   .mt-5{margin-top: 5px;}
@@ -70,7 +76,10 @@
   .mtb-15{margin: 15px 0;} 
   .mt-20{margin-top: 20px;}
   .mb-20{margin-bottom: 20px;}
+  .ml-30{margin-left: 30px;}
+  .mtb-30{margin: 30px 0;}
   .mt-50{margin-top: 50px;}
+  .mb-50{margin-bottom: 50px;}
   .ml-50{margin-left: 50px;}
   .mt-130{margin-top: 130px;}
   
@@ -101,17 +110,23 @@
       /*Text Details*/
   .wei-bold{font-weight: bold;}
   .txt-alg{text-align: center;}
+  .txt-alg-start{text-align: start;}
   .norober{border: none;}
   .txt-w2{font-weight: 200;}
   .txt-w7{font-weight: 700;}
   .txt-w8{font-weight: 800;}
+  .fs-10{font-size:10px}
   .fs-13{font-size: 13px;}
   .fs-15{font-size: 15px;}
+  .f-brown{color: brown;}
+  .f-black{color:black;}
+  .f-white{color: white;}
+  .f-gray{color: gray;}
   
   
     /**Icon**/
   .ic{filter: invert(1);}
-  i{color: white;}
+  
     /***Link Style***/
   a{text-decoration: none;
     color:black;}

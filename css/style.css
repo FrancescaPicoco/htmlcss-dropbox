@@ -7,6 +7,11 @@ header{
     box-shadow: 0 1px 2px grey;
     /*background-color: darkslategrey;*/
 }
+a{display: block;}
+.ablue{
+    color: #0061ff;
+    text-decoration: underline;
+}
 /*nav{
     min-height: 7vh;
 }*/
@@ -35,7 +40,6 @@ main{
     width: 60vw;
     min-height: 5vh;
     /*background-color: darkseagreen;*/
-    display: flex;
 }
 h1{
     font-size: 60px;
@@ -127,19 +131,19 @@ span{
 .partner-lft{
     width: 60%;
     min-height: 40vh;
-    background-color: rgb(99, 82, 118);
+    /*background-color: rgb(99, 82, 118);*/
 }
 .partner-rgt{
     width: 40%;
     min-height: 40vh;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
 }
 h2{
     text-align: cent
 }
 .card{
     width: calc((100% / 3) - 10px);
-    min-height: 20vh;
+    min-height: 10vh;
     background-color: darkseagreen;
     border: 1px solid black;
 }
@@ -155,12 +159,12 @@ h2{
     width: calc(100% / 3);
     /*height:30vh*/
     border: 3px solid white;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
 }
 .lttle{
     width: 50%;
-    min-height: 15vh;
-    background-color: olivedrab;
+    height: 50%;
+    /*background-color: olivedrab;*/
     border: 1px solid white;
 }
 .scroll-txt{
@@ -168,8 +172,7 @@ h2{
 }
 
 .prova-gratuita{
-    background-color: lightslategray;
-    margin-top: 30px;
+
 }
 .testo-lft{
     width: 50%;  
@@ -185,4 +188,10 @@ footer{
 }
 .foot-column{
     padding: 5vh;
+}
+li{
+    color:white;
+    list-style: none;
+    font-size: 10px;
+    padding-bottom: 5px;
 }
