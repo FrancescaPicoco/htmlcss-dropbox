@@ -1,10 +1,32 @@
 header{
     min-height: 7vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    box-shadow: 0 1px 2px grey;
     /*background-color: darkslategrey;*/
+}
+/*nav{
+    min-height: 7vh;
+}*/
+.whydrop:hover{
+   
+}
+.whydrop{
+  
+}
+.btn{
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+}
+main{
+    padding-top: 7vh;
 }
 .jumbotron{
     min-height: 50vh;
-    background-color:cornflowerblue;
+    background-color:lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,27 +38,31 @@ header{
     display: flex;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 800;
 }
 .jumb-cont{
     width: 100%;
-    height:  287px;
+    min-height:  287px;
 }
 .lft-jumb-sd{
     width: 40%;
-    height: 287px;
+    min-height: 287px;
+}
+.freccia{
+    font-size: 40px;
+    display: block;
 }
 .start{
     display: block;
 }
 .rgt-jumb-sd{
     width: 60%;
-    height: 287px;
-    background-color:steelblue;
+    min-height: 287px;
 }
 .Jumbo{
-    width: 100%;
-    padding-top: 30px;
+    width: 80%;
+    margin-top: 30px;
 }
 
 .plan{
@@ -49,30 +75,54 @@ h1{
     width: 50vw;
     min-height: 20vh;
     margin-bottom: 30px;
-    border: 2px solid rgb(38, 81, 85);
+    /*border: 2px solid rgb(38, 81, 85);*/
 }
 .col-cont{
     /*background-color: darkseagreen;*/
     display: flex;
     justify-content: space-between;
+    
 }
 .col{
     width: calc((100% / 3) - 20px);
     min-height: 60vh;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
+    border: 1px solid gray
+}
+.plans>h4{
+    text-align: center;
+    padding: 10px 0;
+}
+h3{
+ font-size: 15px;
+}
+b{
+    font-size: 13px;
+}
+.hr-small{
+    width: 50px;
 }
 span{
-    text-align: center;
+    font-size: 15px;
+    display: block;
+    color: rgb(103, 103, 103);
+}
+.angle{
+    color: #0061ff;
+}
+.enterprise{
+    border: 1px solid gray;
 }
 .enter-lft{
     width: 70%;
     min-height: 30vh;
-    background-color: cadetblue;
 }
 .enter-rgt{
     width: 30%;
     min-height: 30vh;
-    background-color: rgb(99, 82, 118);
+}
+.partner-img{
+    width: 100%;
 }
 .partner-lft{
     width: 60%;

@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
@@ -10,34 +13,33 @@
 </head>
 <body>
     <header class="d-flex jcont-betw">
-        <div class="head-lft d-flex alg-items">
-            <img src="img/logo-small.png" class="ml-15" alt="logo Dropbox">
-            <a href="#" class="ml-15">Perché Dropbox</a>
-            <a href="#" class="ml-15">Funzioni</a>
-            <a href="#" class="ml-15">Piani e Prezzi</a>
-        </div>
-        <div class="head-rgt d-flex alg-items">
-            <a href="#" class="mr-15">Supporto</a>
-            <a href="#" class="mr-15">Contatta l'ufficio vendite</a>
-            <a href="#" class="mr-15">Accedi</a>
-            <button class="mr-15">Inizia</button>
-        </div>
-
+            <div class="head-lft d-flex alg-items">
+                <img src="img/logo-small.png" class="ml-15" alt="logo Dropbox">
+                <a href="#" class="ml-15 whydrop">Perché Dropbox</a>
+                <a href="#" class="ml-15">Funzioni</a>
+                <a href="#" class="ml-15">Piani e Prezzi</a>
+            </div>
+            <div class="head-rgt d-flex alg-items">
+                <a href="#" class="mr-15">Supporto</a>
+                <a href="#" class="mr-15">Contatta l'ufficio vendite</a>
+                <a href="#" class="mr-15">Accedi</a>
+                <button class="mr-15">Inizia</button>
+            </div>
     </header>
 
     <main>
         <section class="jumbotron">
-            <div class="big-container d-flex flex-di-col alg-items">
-                <h1>Tutto ciò che ti serve per il lavoro,in un unico posto</h1>
+            <div class="big-container d-flex flex-di-col alg-items pos-rel">
+                <h1 class="txt-w8">Tutto ciò che ti serve per il lavoro,in un unico posto</h1>
                 <div class="jumb-cont d-flex">
                     <div class="lft-jumb-sd">
                         <p class="ptb-20">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accesibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <button class="ptb-20 mb-20 start">Inizia la tua prova gratuita</button>
                         <a href="#" class="ptb-20">Annulla in qualsiasi momento</a>
-                        <i class="fa-solid fa-arrow-down"></i>
+                        <i class="fa-solid fa-arrow-down freccia ptb-10"></i>
                     </div>
                     <div class="rgt-jumb-sd">
-                        <img src="img/jumbo.png" class="Jumbo">
+                        <img src="img/jumbo.png" class="Jumbo pos-abs">
                     </div>
                 </div>
             </div>
@@ -46,22 +48,153 @@
         <section class="plan">
             <div class="container d-flex flex-di-col">
                 <div class="top-sect1">
-                    <h2 class="mt-50">Trova il piano business che fa per te</h2>
+                    <h2 class="mt-130 ptb-20 txt-w7">Trova il piano business che fa per te</h2>
                 </div>
                 <div class="check">
                     <input type="radio" class="mtb-15 ml-15">Fatturazione mensile
-                    <input type="radio" class="mtb-15 ml-15">Fatturazione annuale
+                    <input type="radio" class="mtb-15 ml-50">Fatturazione annuale
                 </div>
                 <div class="col-cont">
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
+                    <div class="col">
+                        <div class="plans">
+                            <h4>Singolo</h4>
+                            <hr>
+                        </div>
+                        <h3 class="pl-10 ptb-10"><strong>Professional</strong></h3>
+                        <b class="pl-10 ptb-10">12,00 &euro;</b>
+                        <span class="pl-10 ptb-10">/mese</span>
+
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-user" style="color: #000000;"></i></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p>1 utente</p></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-folder" style="color: #000000;"></i></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p>5 TB di spazio di archiviazione sicuro</p></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-code-merge" style="color: #000000;"></i></div>
+                            <div class="txt-icn ptb-20 pr-5">Funzione di produttività e condivisione file semplice e sicura.</div>
+                        </div>
+
+                        <a href="#" class="btn ml-15">Prova gratis per 30 giorni</a>
+                        <p class="ptb-20 ml-10">oppure <a href="#" class="buynow">aquista ora</a></p>
+                        <hr class="hr-small mb-20 ml-10">
+                        <h4 class="pt-30 pb-20 pl-10 fs-13"><strong>Punti Salienti del piano</strong></h4>
+                        <div class="d-flex pb-20">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Invia file fino 100 GB con Dropbox Transfer</p>
+                        </div>
+                        <div class="d-flex pb-20">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Cartelle offline su dispositivi mobili</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="plans">
+                            <h4>Team</h4>
+                            <hr>
+                        </div>
+                        <h3 class="pl-10 ptb-10"><strong>Advanced</strong></h3>
+                        <b class="pl-10 ptb-10">18,00 &euro;</b>
+                        <span class="pl-10 ptb-10">/mese</span>
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-user" style="color: #000000;"></i></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p>1 utente</p></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-folder" style="color: #000000;"></i></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p>5 TB di spazio di archiviazione sicuro</p></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-code-merge" style="color: #000000;"></i></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5">Funzione di produttività e condivisione file semplice e sicura.</div>
+                        </div>
+
+                        <a href="#" class="btn ml-15">Prova gratis per 30 giorni</a>
+                        <p class="ptb-20 ml-10">oppure <a href="#" class="buynow">aquista ora</a></p>
+                        <hr class="hr-small mb-20 ml-10">
+                        <h4 class="pt-30 pb-20 pl-10 fs-13"><strong>Punti Salienti del piano</strong></h4>
+                        <div class="d-flex pb-20">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Nessun limite di spazio per i file</p>
+                        </div>
+                        <div class="d-flex pb-20">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Cartelle offline su dispositivi mobili</p>
+                        </div>
+                        <div class="d-flex pb-20">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Risparmio del 50% rispetto alle iscrizioni singole</p>
+                        </div>
+                        <div class="d-flex pb-20">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Possibilità di inserire i nuovi membri del team</p>
+                        </div>
+                        <div class="d-flex pb-40">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Gestione dei permessi in base ai ruoli</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="plans">
+                            <h4>Azienda</h4>
+                            <hr>
+                        </div>
+                        <h3 class="pl-10 ptb-10"><strong>Enterprise</strong></h3>
+                        <b class="pl-10 ptb-10">Contattaci</b>
+                        <span class="pl-10 ptb-10">/mese</span>
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-user" style="color: #000000;"></i></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p>1 utente</p></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-folder" style="color: #000000;"></i></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p>5 TB di spazio di archiviazione sicuro</p></div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-code-merge" style="color: #000000;"></i></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5">Funzione di produttività e condivisione file semplice e sicura.</div>
+                        </div>
+
+                        <a href="#" class="btn ml-15">Prova gratis per 30 giorni</a>
+                        <p class="ptb-20 ml-10">oppure <a href="#" class="buynow">aquista ora</a></p>
+                        <hr class="hr-small mb-20 ml-10">
+                        <div class="d-flex pb-20">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Cartelle offline su dispositivi mobili</p>
+                        </div>
+                        <div class="d-flex pb-20">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Servizio assistenza 24h</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-angle-down angle p-angle"></i>
+                            <p class="txt-ind fs-15">Possibilità di personalizzazione totale</p>
+                        </div>
+
+                    </div>
+                    
                 </div>
-                <div class="enterprise">
-                    <span>team</span>
+                <div class="enterprise mt-50">
+                    <h5 class="txt-alg fs-15 ptb-7">team</h5>
+                    <hr>
                     <div class="d-flex">
-                        <div class="enter-lft"></div>
-                        <div class="enter-rgt"></div>
+                        <div class="enter-lft pl-10">
+                            <h2 class="ptb-20">Enterprise</h2>
+                            <strong>contatta l'ufficio vendite</strong>
+                            <p class="pt-50 pb-10">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                        </div>
+                        <div class="enter-rgt">
+                            <a href="#" class="">Contatta l'ufficio vendite</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -70,8 +203,14 @@
 
         <section class="partner d-flex jcont-cent">
             <div class="container d-flex">
-                <div class="partner-lft"></div>
-                <div class="partner-rgt"></div>
+                <div class="partner-lft">
+                    <img src="img/partner.png" class="partner-img">
+                </div>
+                <div class="partner-rgt">
+                    <h2>Entra in contatto con un partner Dropbox</h2>
+                    <p>Trova un partner Dropbox e HelloSing di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, gestione e supporto continui.</p>
+                    <a href="#">Trova un partner</a>
+                </div>
             </div>
         </section>
 
