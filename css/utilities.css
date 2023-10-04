@@ -99,9 +99,11 @@
   .ptb-5{padding-top: 5px;
           padding-bottom: 5px;}
   .ptb-7{padding: 7px 0;}
-  .plr-7{padding-left: 7px;
-          padding-right: 7px;}
+  .plr-5{padding-left: 5px;
+          padding-right: 5px;}
   .pl-10{ padding-left: 10px;}
+  .plr-10{ padding-left: 10px;
+          padding-right: 10px;}
   .pl-15{padding-left: 15px;}
   .ptb-10{padding-top: 10px;
           padding-bottom: 10px;}

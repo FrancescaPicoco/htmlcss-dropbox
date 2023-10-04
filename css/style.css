@@ -7,34 +7,33 @@ header{
     box-shadow: 0 1px 2px grey;
     /*background-color: darkslategrey;*/
 }
-.whydrop:hover{
+.whydrop:hover , .function:hover , .prices:hover , .support:hover , .office:hover , .login:hover{
    border-bottom: 2px solid black;
 }
-.function:hover{
-    border-bottom: 2px solid black;
- }
-.prices:hover{
-    border-bottom: 2px solid black;
- }
-.support:hover{
-    border-bottom: 2px solid black;
- }
-.office:hover{
-    border-bottom: 2px solid black;
- }
-.login:hover{
-    border-bottom: 2px solid black;
- }
   /***Link e Button***/
 .btn{
     color: white;
     background-color: #0061ff;
     padding: 3px 10px;
 }
+.btn:hover{
+    opacity: 0.5;
+    border: 2px solid #2e7dfd;
+}
+.btn:active{
+    background-color:darkcyan;
+}
 .btn-white{
     color: black;
     background-color: white;
     border: 1px solid gray;
+}
+.btn-white:hover{
+    color: rgba(128, 128, 128, 0.735);
+    border: 1px solid black;
+}
+.btn-white:active{
+    background-color: darkseagreen;
 }
 a{display: block;}
 .ablue{
@@ -231,4 +230,7 @@ li{
     background-color: black;
     color: white;
     border: none;
+}
+#lingue>option{
+    color: white;
 }
