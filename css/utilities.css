@@ -13,7 +13,7 @@
     font-family: 'Open Sans', sans-serif;}
   
   .fix{position: fixed;}
-  
+  .d-inbl{display: inline-block;}
   
   .d-flex{display: flex;}
   .jcont-cent{justify-content: center;}
@@ -128,8 +128,9 @@
   .wei-bold{font-weight: bold;}
   .txt-alg{text-align: center;}
   .txt-alg-start{text-align: start;}
-  .norober{border: none;}
+  .noborder{border: none;}
   .txt-w2{font-weight: 200;}
+  .txt-w3{font-weight: 300;}
   .txt-w7{font-weight: 700;}
   .txt-w8{font-weight: 800;}
   .fs-10{font-size:10px}

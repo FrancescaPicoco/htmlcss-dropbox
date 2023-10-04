@@ -186,6 +186,10 @@ main{
 .scroll-txt{
     overflow: auto;
 }
+.scroll-cont{
+    width: 80%;
+    height: 100%;
+}
   /**Bottom Squares**/
 .testo-lft{
     width: 50%;  
@@ -214,7 +218,7 @@ footer{
     background-color: cornflowerblue;
 }
 .foot-column{
-    padding: 5vh;
+    line-height:1.5;
 }
 li{
     color:white;
