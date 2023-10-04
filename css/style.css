@@ -1,17 +1,27 @@
-header{
-    min-height: 3em;
-    width: 100%;
-    position: fixed;
-    z-index: 999;
-    background-color: white;
-    box-shadow: 0 1px 2px grey;
-    /*background-color: darkslategrey;*/
+   /***Text Details***/
+h1{
+    font-size: 60px;
+    font-weight: 800;
 }
-.whydrop:hover , .function:hover , .prices:hover , .support:hover , .office:hover , .login:hover{
-   border-bottom: 2px solid black;
+h3{
+    font-size: 15px;
 }
-  /***Link e Button***/
-.btn{
+b{
+    font-size: 13px;
+}
+.hr-small{
+    width: 50px;
+}
+span{
+    font-size: 15px;
+    display: block;
+    color: rgb(103, 103, 103);
+}
+.angle{
+    color: #0061ff;
+}
+ /***Link e Button***/
+ .btn{
     color: white;
     background-color: #0061ff;
     padding: 3px 10px;
@@ -40,11 +50,22 @@ a{display: block;}
     color: #0061ff;
     text-decoration: underline;
 }
-    /***Text Details***/
-h1{
-    font-size: 60px;
-    font-weight: 800;
+
+     /**Header**/
+
+header{
+    min-height: 3em;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    box-shadow: 0 1px 2px grey;
+    /*background-color: darkslategrey;*/
 }
+.whydrop:hover , .function:hover , .prices:hover , .support:hover , .office:hover , .login:hover{
+   border-bottom: 2px solid black;
+}
+ 
      /***Main***/
 main{
     padding-top: 3em;
@@ -53,19 +74,33 @@ main{
     width: 60vw;
     min-height: 5vh;
 }
+.container{
+    width: 50vw;
+    min-height: 20vh;
+    margin-bottom: 30px;
+}
+    /***Jumbo***/
 .jumbotron{
-    min-height: 50vh;
+    min-height: 1.6em; /**50vh**/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .jumb-cont{
     width: 100%;
-    min-height:  287px;
+    min-height:  18em;
 }
 .lft-jumb-sd{
     width: 40%;
+    min-height: 18em;
+}
+.rgt-jumb-sd{
+    width: 60%;
     min-height: 287px;
+}
+.Jumbo{
+    width: 80%;
+    margin-top: 30px;
 }
 .freccia{
     font-size: 40px;
@@ -74,6 +109,7 @@ main{
 .start{
     display: inline-block;
 }
+   /***Plans***/
 .radio{
     background-color: white;
     border-radius: 50%;
@@ -86,42 +122,11 @@ main{
 .radio:checked{
     border: 3px solid blue;
 }
-.quest:hover{
-    overflow: visible;
-    background-color: white;
-    min-height: 300px;
-}
-.quest-angle:hover{
-    transform: rotate(180deg);
-}
-.quest{
-    height: 60px;
-    overflow: hidden;
-}
-.rgt-jumb-sd{
-    width: 60%;
-    min-height: 287px;
-}
-.Jumbo{
-    width: 80%;
-    margin-top: 30px;
-}
-
 .plan{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.container{
-    width: 50vw;
-    min-height: 20vh;
-    margin-bottom: 30px;
-}
-/*.col-cont{
-    display: flex;
-    justify-content: space-between;   
-}*/
 .col{
     width: calc((100% / 3) - 20px);
     min-height: 60vh;
@@ -131,23 +136,7 @@ main{
     text-align: center;
     padding: 10px 0;
 }
-h3{
- font-size: 15px;
-}
-b{
-    font-size: 13px;
-}
-.hr-small{
-    width: 50px;
-}
-span{
-    font-size: 15px;
-    display: block;
-    color: rgb(103, 103, 103);
-}
-.angle{
-    color: #0061ff;
-}
+    /**Enterprise**/
 .enterprise{
     border: 1px solid gray;
 }
@@ -159,22 +148,19 @@ span{
     width: 30%;
     min-height: 30vh;
 }
+   /**Partners**/
 .partner-img{
     width: 100%;
 }
 .partner-lft{
     width: 60%;
     min-height: 40vh;
-    /*background-color: rgb(99, 82, 118);*/
 }
 .partner-rgt{
     width: 40%;
     min-height: 40vh;
-    /*background-color: cadetblue;*/
 }
-h2{
-    text-align: cent
-}
+   /**Cards**/
 .card{
     width: calc((100% / 3) - 10px);
     min-height: 10vh;
@@ -182,8 +168,7 @@ h2{
     padding-right: 30px;
     padding-bottom: 20px;
 }
-.card-bottom-text{
-}
+   /***Squares***/
 .squares{
     width: 100%;
     height: 60vh;
@@ -201,7 +186,7 @@ h2{
 .scroll-txt{
     overflow: auto;
 }
-
+  /**Bottom Squares**/
 .testo-lft{
     width: 50%;  
 }
@@ -209,13 +194,24 @@ h2{
 .testo-rgt{
     width: 50%;
 }
+      /***Quest***/
+.quest:hover{
+    overflow: visible;
+    background-color: white;
+    min-height: 300px;
+}
+.quest-angle:hover{
+    transform: rotate(180deg);
+}
+.quest{
+    height: 60px;
+    overflow: hidden;
+}
+   /**Footer**/
 footer{
     width: 100%;
     min-height: 20vh;
     background-color: cornflowerblue;
-}
-.quest:hover{
-
 }
 .foot-column{
     padding: 5vh;
