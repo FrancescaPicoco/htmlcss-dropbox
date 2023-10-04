@@ -21,11 +21,11 @@ span{
     color: white;
     background-color: #0061ff;
     padding: 3px 10px;
+    border: 1px solid #0061ff;
 }
 .btn:hover{
     opacity: 0.5;
     border: 1px solid #2e7dfd;
-    box-sizing:border-box;
 }
 .btn:active{
     background-color:darkcyan;
@@ -200,8 +200,11 @@ main{
     background-color: white;
     min-height: 300px;
 }
-.quest-angle:hover{
+.quest:hover + .quest-angle{
     transform: rotate(180deg);
+    
+    padding-top: 25px;
+    padding-right: 5px;
 }
 .quest{
     height: 60px;
