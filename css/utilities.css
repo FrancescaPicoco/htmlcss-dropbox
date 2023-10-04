@@ -13,8 +13,10 @@
     font-family: 'Open Sans', sans-serif;}
   
   .fix{position: fixed;}
+  .pos-rel{position: relative;}
+  .pos-abs{position: absolute;}
   .d-inbl{display: inline-block;}
-  
+     /***FLEX***/
   .d-flex{display: flex;}
   .jcont-cent{justify-content: center;}
   .jcont-betw{justify-content: space-between;}
@@ -23,14 +25,6 @@
   .f-wrap{flex-wrap: wrap;}
   .alg-items{align-items: center;}
   .flex-di-col{flex-direction: column;}
-
-  .pos-rel{
-      position: relative;
-  }
-  .pos-abs{
-      position: absolute;
-  }
-  
      /*width %*/
   .w{width: 100%;}
   .w-20{width: 20%;}
@@ -42,9 +36,7 @@
   .w-70{width: 70%;}
   .w-80{width: 80%;} 
   
-     /*width in Px*/
-  .w10{width: 10px;}
-  .w25{width: 25px;}
+     /*width in em*/
   .w3{width: 3.5em;}
   
      /*Heigth*/
@@ -67,62 +59,63 @@
 
   
      /*Margin*/
-  .mt-5{margin-top: 5px;}
-  .mb-5{margin-bottom: 5px;}
+  .mt-5{margin-top: 0.3125rem;} /*5px*/
+  .mr-5{margin-right: 0.3125rem;}
+  .ml-5{margin-left: 0.3125rem;} 
+
+  .mb-5{margin-bottom: 0.3125rem;}
   .mtb-5{margin-top: 5px 0;}
-  .mr-5{margin-right: 5px;}
-  .ml-5{margin-left: 5px;}        
+        
   .mt-10{margin-top: 10px;} 
-  .mb-10{margin-bottom: 10px;} 
-  .ml-10{margin-left:10px}
-  .ml-15{margin-left: 15px;}  
-  .mr-15{margin-right:  0.9375em;} 
-  .mtb-15{margin: 15px 0;} 
-  .mt-20{margin-top: 20px;}
-  .mb-20{margin-bottom: 20px;}
-  .mtb-20{margin-top: 20px;
-          margin-bottom: 20px;}
-  .ml-30{margin-left: 30px;}
-  .mtb-30{margin: 30px 0;}
-  .mt-50{margin-top: 50px;}
-  .mb-50{margin-bottom: 50px;}
-  .ml-85{margin-left: 85px;}
-  .mt-130{margin-top: 130px;}
-  
+  .mb-10{margin-bottom: 10px;}
+
+  .ml-10{margin-left:0.625rem;} /*10*/
+
+  .ml-15{margin-left: 0.9375rem;} /*15*/ 
+  .mr-15{margin-right:  0.9375em;}
+  .mtb-15{margin: 15px 0;}  
+  .mt-20{margin-top: 1.25rem;} /*20*/
+  .mb-20{margin-bottom: 1.25rem;}
+  .mtb-20{margin-top: 1.25rem;
+          margin-bottom: 1.25rem;}
+  .mtb-30{margin: 1.875rem 0;} /*30px*/
+  .mt-50{margin-top: 3.125rem;}  /*50px*/
+  .mb-50{margin-bottom: 3.125rem;} /*50px*/
+  .ml-85{margin-left: 5.3125rem;}  /*85px*/
+  .mt-130{margin-top: 8.125rem;}  /*130px*/
+
        /*Padding*/
-  
   .pdd-5{padding: 5px;}
-  .pdd-30{padding: 30px;}
-  .pr-5{padding-right: 5px;}
+  .pr-5{padding-right: 0.3125rem;} /*5*/
+  .ptb-5{padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;}
+
   .p-angle{padding: 5px 5px 0 5px}
   .pt-5{padding-top: 5px;}
-  .ptb-5{padding-top: 5px;
-          padding-bottom: 5px;}
-  .ptb-7{padding: 7px 0;}
-  .plr-5{padding-left: 5px;
-          padding-right: 5px;}
-  .pl-10{ padding-left: 10px;}
-  .plr-10{ padding-left: 10px;
-          padding-right: 10px;}
-  .pl-15{padding-left: 15px;}
-  .ptb-10{padding-top: 10px;
-          padding-bottom: 10px;}
-  .pt-10{padding-top: 0.8em;}
-  .pb-10{padding-bottom: 10px;}
-  .pb-15{padding-bottom: 15px;} 
-  .pl-20{padding-left: 20px;}       
-  .pt-20{padding-top: 20px;}
-  .pb-20{padding-bottom: 20px;}
-  .ptb-20{ padding-top: 20px;
-          padding-bottom: 20px;}
-  .pt-25{padding-top: 25px;}
-  .pt-30{padding-top: 30px;}
-  .pt-40{padding-top: 40px;}
-  .pb-40{padding-bottom: 40px;}
-  .pt-50{padding-top: 50px;}
+
+  .pt-06{padding-top: 0.625rem;}  /*10px*/
+  .pl-10{ padding-left: 0.625rem;}
+  .pb-10{padding-bottom: 0.625rem;} 
+  .ptb-10{padding-top: 0.625rem; 
+    padding-bottom: 0.625rem;}
+  .plr-10{ padding-left: 0.625rem;
+    padding-right: 0.625rem;}
+  .pl-15{padding-left: 0.9375rem;} /*15px*/
+  .pb-20{padding-bottom: 1.25rem;}  /*20px*/
+  .ptb-20{ padding-top: 1.25rem; 
+          padding-bottom: 1.25rem;}
+  .pt-20{padding-top: 1.25rem;}
+  .pl-20{padding-left: 1.25rem;} 
+  .pt-25{padding-top: 1.5625rem;} /*25px*/
+
+  .pdd-30{padding: 1.875rem;} /*30px*/
+  .pt-30{padding-top: 1.875rem;}
+
+  .pt-40{padding-top: 2.5rem;} /*40px*/
+  .pb-40{padding-bottom: 2.5rem;}
+  .pt-50{padding-top: 3.125rem;} /*50px*/
   .pb-80{padding-bottom: 80px;} 
   .pb-100{padding-bottom: 100px;} 
-
 
       /*Text Details*/
   .wei-bold{font-weight: bold;}
@@ -133,10 +126,11 @@
   .txt-w3{font-weight: 300;}
   .txt-w7{font-weight: 700;}
   .txt-w8{font-weight: 800;}
-  .fs-10{font-size:10px}
-  .fs-13{font-size: 13px;}
-  .fs-15{font-size: 15px;}
-  .fs-18{font-size: 18px;}
+  
+  .fs-13{font-size: 0.8125rem;}
+  .fs-15{font-size: 0.9375rem;}
+  .fs-18{font-size: 1.125rem;}
+
   .f-brown{color: brown;}
   .f-black{color:black;}
   .f-white{color: white;}
