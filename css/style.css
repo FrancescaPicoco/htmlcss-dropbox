@@ -1,5 +1,5 @@
 header{
-    min-height: 7vh;
+    min-height: 3em;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -47,7 +47,7 @@ h1{
 }
      /***Main***/
 main{
-    padding-top: 7vh;
+    padding-top: 3em;
 }
 .big-container{
     width: 60vw;

@@ -48,7 +48,7 @@
   .w50{width: 50px;}
   
      /*Heigth*/
-  .h-60{height: 60px;}
+  .h-3{height: 3em;}
      /*Colors*/
   
   .black{background-color: black}
@@ -76,7 +76,7 @@
   .mb-10{margin-bottom: 10px;} 
   .ml-10{margin-left:10px}
   .ml-15{margin-left: 15px;}  
-  .mr-15{margin-right: 15px;} 
+  .mr-15{margin-right:  0.9375em;} 
   .mtb-15{margin: 15px 0;} 
   .mt-20{margin-top: 20px;}
   .mb-20{margin-bottom: 20px;}
@@ -107,7 +107,7 @@
   .pl-15{padding-left: 15px;}
   .ptb-10{padding-top: 10px;
           padding-bottom: 10px;}
-  .pt-10{padding-top: 10px;}
+  .pt-10{padding-top: 0.8em;}
   .pb-10{padding-bottom: 10px;}
   .pb-15{padding-bottom: 15px;} 
   .pl-20{padding-left: 20px;}       
