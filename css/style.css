@@ -8,16 +8,33 @@ header{
     /*background-color: darkslategrey;*/
 }
 .whydrop:hover{
-   
+   border-bottom: 2px solid black;
 }
-.whydrop{
-  
-}
+.function:hover{
+    border-bottom: 2px solid black;
+ }
+.prices:hover{
+    border-bottom: 2px solid black;
+ }
+.support:hover{
+    border-bottom: 2px solid black;
+ }
+.office:hover{
+    border-bottom: 2px solid black;
+ }
+.login:hover{
+    border-bottom: 2px solid black;
+ }
   /***Link e Button***/
 .btn{
     color: white;
     background-color: #0061ff;
     padding: 3px 10px;
+}
+.btn-white{
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
 }
 a{display: block;}
 .ablue{
@@ -39,7 +56,6 @@ main{
 }
 .jumbotron{
     min-height: 50vh;
-    background-color:lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,10 +75,25 @@ main{
 .start{
     display: inline-block;
 }
+.radio{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid gray;
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+}
+.radio:checked{
+    border: 3px solid blue;
+}
 .quest:hover{
     overflow: visible;
     background-color: white;
     min-height: 300px;
+}
+.quest-angle:hover{
+    transform: rotate(180deg);
 }
 .quest{
     height: 60px;
@@ -148,25 +179,25 @@ h2{
 .card{
     width: calc((100% / 3) - 10px);
     min-height: 10vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
 }
 .card-bottom-text{
 }
 .squares{
     width: 100%;
-    height: 50vh;
-    background-color: blueviolet;
+    height: 60vh;
 }
 .big-square{
     width: calc(100% / 3);
-    /*height:30vh*/
-    border: 3px solid white;
-    /*background-color: cadetblue;*/
 }
 .lttle{
     width: 50%;
     height: 50%;
-    /*background-color: olivedrab;*/
-    border: 1px solid white;
+}
+.florida{
+    height: 20%;
 }
 .scroll-txt{
     overflow: auto;
@@ -195,4 +226,9 @@ li{
     list-style: none;
     font-size: 10px;
     padding-bottom: 5px;
+}
+#lingue{
+    background-color: black;
+    color: white;
+    border: none;
 }

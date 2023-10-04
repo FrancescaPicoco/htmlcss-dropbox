@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
@@ -16,14 +16,14 @@
     <header class="d-flex jcont-betw">
             <div class="head-lft d-flex alg-items">
                 <img src="img/logo-small.png" class="ml-15" alt="logo Dropbox">
-                <a href="#" class="ml-15 whydrop">Perché Dropbox</a>
-                <a href="#" class="ml-15">Funzioni</a>
-                <a href="#" class="ml-15">Piani e Prezzi</a>
+                <a href="#" class="ml-15 whydrop h-60 pt-20">Perché Dropbox</a>
+                <a href="#" class="ml-15 function h-60 pt-20">Funzioni</a>
+                <a href="#" class="ml-15 prices h-60 pt-20">Piani e Prezzi</a>
             </div>
             <div class="head-rgt d-flex alg-items">
-                <a href="#" class="mr-15">Supporto</a>
-                <a href="#" class="mr-15">Contatta l'ufficio vendite</a>
-                <a href="#" class="mr-15">Accedi</a>
+                <a href="#" class="mr-15 support h-60 pt-20">Supporto</a>
+                <a href="#" class="mr-15 office h-60 pt-20">Contatta l'ufficio vendite</a>
+                <a href="#" class="mr-15 login h-60 pt-20">Accedi</a>
                 <a href="#" class="mr-15 btn">Inizia</a>
             </div>
     </header>
@@ -31,9 +31,9 @@
                  <!--Inizio Main-->
     <main>
                 <!--Inizio Jumbotron-->
-        <section class="jumbotron">
+        <section class="jumbotron basecolor">
             <div class="big-container d-flex flex-di-col alg-items pos-rel">
-                <h1 class="txt-w8">Tutto ciò che ti serve per il lavoro,in un unico posto</h1>
+                <h1 class="">Tutto ciò che ti serve per il lavoro,in un unico posto</h1>
                 <div class="jumb-cont d-flex">
                     <div class="lft-jumb-sd">
                         <p class="ptb-20">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accesibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
@@ -53,11 +53,11 @@
         <section class="plan">
             <div class="container d-flex flex-di-col">
                 <div class="top-sect1">
-                    <h2 class="mt-130 ptb-20 txt-w7">Trova il piano business che fa per te</h2>
+                    <h2 class="mt-130 ptb-20">Trova il piano business che fa per te</h2>
                 </div>
                 <div class="check">
-                    <input type="radio" class="mtb-15 ml-15">Fatturazione mensile
-                    <input type="radio" class="mtb-15 ml-50">Fatturazione annuale
+                    <input type="radio" name="fatturazione" class="radio mr-5">Fatturazione mensile
+                    <input type="radio" name="fatturazione" class="radio mr-5 ml-85">Fatturazione annuale
                 </div>
                 <div class="col-cont d-flex jcont-betw">
                     <div class="col">
@@ -71,23 +71,23 @@
 
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-user" style="color: #000000;"></i></div>
-                            <div class="txt-icn pt-20 pb-15 pr-5"><p>1 utente</p></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p class="fs-15">1 utente</p></div>
                         </div>
 
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-folder" style="color: #000000;"></i></div>
-                            <div class="txt-icn pt-20 pb-15 pr-5"><p>5 TB di spazio di archiviazione sicuro</p></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p class="fs-15">5 TB di spazio di archiviazione sicuro</p></div>
                         </div>
 
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-code-merge" style="color: #000000;"></i></div>
-                            <div class="txt-icn ptb-20 pr-5">Funzione di produttività e condivisione file semplice e sicura.</div>
+                            <div class="txt-icn ptb-20 pr-5"><p class="fs-15">Funzione di produttività e condivisione file semplice e sicura.</p></div>
                         </div>
 
-                        <a href="#" class="btn ml-5 mr-5">Prova gratis per 30 giorni</a>
-                        <p class="ptb-20 ml-10">oppure <a href="#" class="buynow">aquista ora</a></p>
+                        <a href="#" class="btn ml-5 mr-5 fs-15 txt-alg">Prova gratis per 30 giorni</a>
+                        <p class="ptb-20 ml-10 fs-15">oppure <a href="#" class="buynow fs-15">aquista ora</a></p>
                         <hr class="hr-small mb-20 ml-10">
-                        <h4 class="pt-30 pb-20 pl-10 fs-13"><strong>Punti Salienti del piano</strong></h4>
+                        <h4 class="pt-30 pb-20 pl-15 fs-13"><strong>Punti Salienti del piano</strong></h4>
                         <div class="d-flex pb-20">
                             <i class="fa-solid fa-angle-down angle p-angle"></i>
                             <p class="txt-ind fs-15">Invia file fino 100 GB con Dropbox Transfer</p>
@@ -107,23 +107,23 @@
                         <span class="pl-10 ptb-10">/mese</span>
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-user" style="color: #000000;"></i></div>
-                            <div class="txt-icn pt-20 pb-15 pr-5"><p>1 utente</p></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p class="fs-15">1 utente</p></div>
                         </div>
 
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-folder" style="color: #000000;"></i></div>
-                            <div class="txt-icn pt-20 pb-15 pr-5"><p>5 TB di spazio di archiviazione sicuro</p></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p class="fs-15">5 TB di spazio di archiviazione sicuro</p></div>
                         </div>
 
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-code-merge" style="color: #000000;"></i></div>
-                            <div class="txt-icn pt-20 pb-15 pr-5">Funzione di produttività e condivisione file semplice e sicura.</div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p class="fs-15">Funzione di produttività e condivisione file semplice e sicura.</p></div>
                         </div>
 
-                        <a href="#" class="btn ml-5 mr-5">Prova gratis per 30 giorni</a>
-                        <p class="ptb-20 ml-10">oppure <a href="#" class="buynow">aquista ora</a></p>
+                        <a href="#" class="btn ml-5 mr-5 fs-15 txt-alg">Prova gratis per 30 giorni</a>
+                        <p class="ptb-20 ml-10 fs-15">oppure <a href="#" class="buynow fs-15">aquista ora</a></p>
                         <hr class="hr-small mb-20 ml-10">
-                        <h4 class="pt-30 pb-20 pl-10 fs-13"><strong>Punti Salienti del piano</strong></h4>
+                        <h4 class="pt-30 pb-20 pl-15 fs-13"><strong>Punti Salienti del piano</strong></h4>
                         <div class="d-flex pb-20">
                             <i class="fa-solid fa-angle-down angle p-angle"></i>
                             <p class="txt-ind fs-15">Nessun limite di spazio per i file</p>
@@ -156,22 +156,23 @@
                         <span class="pl-10 ptb-10">/mese</span>
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-user" style="color: #000000;"></i></div>
-                            <div class="txt-icn pt-20 pb-15 pr-5"><p>1 utente</p></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p class="fs-15">1 utente</p></div>
                         </div>
 
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-folder" style="color: #000000;"></i></div>
-                            <div class="txt-icn pt-20 pb-15 pr-5"><p>5 TB di spazio di archiviazione sicuro</p></div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p class="fs-15">5 TB di spazio di archiviazione sicuro</p></div>
                         </div>
 
                         <div class="d-flex">
                             <div class="icn pl-10 pt-20 pr-5"><i class="fa-solid fa-code-merge" style="color: #000000;"></i></div>
-                            <div class="txt-icn pt-20 pb-15 pr-5">Funzione di produttività e condivisione file semplice e sicura.</div>
+                            <div class="txt-icn pt-20 pb-15 pr-5"><p class="fs-15">Funzione di produttività e condivisione file semplice e sicura.</p></div>
                         </div>
 
-                        <a href="#" class="btn ml-5 mr-5">Prova gratis per 30 giorni</a>
-                        <p class="ptb-20 ml-10">oppure <a href="#" class="buynow">aquista ora</a></p>
+                        <a href="#" class="btn ml-5 mr-5 fs-15 txt-alg">Prova gratis per 30 giorni</a>
+                        <p class="ptb-20 ml-10 fs-15">oppure <a href="#" class="buynow fs-15">aquista ora</a></p>
                         <hr class="hr-small mb-20 ml-10">
+                        <h4 class="pt-30 pb-20 pl-15 fs-13"><strong>Punti Salienti del piano</strong></h4>
                         <div class="d-flex pb-20">
                             <i class="fa-solid fa-angle-down angle p-angle"></i>
                             <p class="txt-ind fs-15">Cartelle offline su dispositivi mobili</p>
@@ -189,16 +190,16 @@
                     
                 </div>
                 <div class="enterprise mt-50">
-                    <h5 class="txt-alg fs-15 ptb-7">team</h5>
+                    <h5 class="txt-alg fs-18 ptb-7"><i class="fa-solid fa-hotel pr-5 fs-13"></i>team</h5>
                     <hr>
                     <div class="d-flex">
                         <div class="enter-lft pl-10">
                             <h2 class="ptb-20">Enterprise</h2>
                             <strong>contatta l'ufficio vendite</strong>
-                            <p class="pt-50 pb-10">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                            <p class="pt-50 pb-10 fs-15">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
                         </div>
                         <div class="enter-rgt">
-                            <a href="#" class="">Contatta l'ufficio vendite</a>
+                            <a href="#" class="btn fs-15 mt-20 mr-15 txt-alg">Contatta l'ufficio vendite</a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +216,7 @@
                 <div class="partner-rgt pt-20 pl-20">
                     <h2 class="pt-20">Entra in contatto con un partner Dropbox</h2>
                     <p class="pt-20">Trova un partner Dropbox e HelloSing di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, gestione e supporto continui.</p>
-                    <a href="#" class="pt-40 pl-10">Trova un partner</a>
+                    <a href="#" class="btn-white mt-20 txt-alg ptb-5 plr-7"><b>Trova un partner</a></b>
                 </div>
             </div>
         </section>
@@ -250,7 +251,7 @@
                             <b><h3 class="ptb-10">Passa di meno da un sostrumento all'altro</h3></b>
                         </div>
                        <div class="bottom-card">
-                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                            <p class="fs-15 pt-20 pb-10">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                        </div>
                     </div>
                     <!--Card 3-->
@@ -262,7 +263,7 @@
                             <b><h3 class="ptb-10">Passa di meno da un sostrumento all'altro</h3></b>
                         </div>
                        <div class="bottom-card">
-                           <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                           <p class="fs-15 pt-20 pb-10">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                        </div>
                     </div>
                     <!--Card 4-->
@@ -274,7 +275,7 @@
                             <b><h3 class="ptb-10">Passa di meno da un sostrumento all'altro</h3></b>
                         </div>
                        <div class="bottom-card">
-                           <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                           <p class="fs-15 pt-20 pb-10">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                        </div>
                     </div>
                     <!--Card 5-->
@@ -286,7 +287,7 @@
                             <b><h3 class="ptb-10">Passa di meno da un sostrumento all'altro</h3></b>
                         </div>
                        <div class="bottom-card">
-                           <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                           <p class="fs-15 pt-20 pb-10">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                        </div>
                     </div>
                     <!--Card 6-->
@@ -298,7 +299,7 @@
                             <b><h3 class="ptb-10">Passa di meno da un sostrumento all'altro</h3></b>
                         </div>
                        <div class="bottom-card">
-                           <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                           <p class="fs-15 pt-20 pb-10">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Googlw, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                        </div>
                     </div>                    
                 </div>
@@ -319,8 +320,8 @@
                 <div class="lttle d-flex jcont-cent brown">
                     <img src="img/arizona_state_university.svg" class="w-80">
                 </div>
-                <div class="lttle d-flex jcont-cent dodgerblue">
-                    <img src="img/university_of_florida.svg" class="w-70">
+                <div class="lttle d-flex jcont-cent alg-items dodgerblue">
+                    <img src="img/university_of_florida.svg" class="florida w-80">
                 </div>
                 <div class="lttle d-flex jcont-cent crimson">
                     <img src="img/topps.svg" class="w-80">
@@ -343,7 +344,7 @@
                 <div class="lttle d-flex jcont-cent red">
                     <img src="img/world_bicycle_relief.svg" class="w-80">
                 </div>
-                <div class="lttle d-flex jcont-cent lightblue">
+                <div class="lttle d-flex jcont-cent basecolor">
                     <img src="img/hearst_corp.svg" class="w-80">
                 </div>
                 <div class="lttle d-flex jcont-cent darkblue">
@@ -356,13 +357,13 @@
         </section>
                 <!--Fine Section Squares-->
 
-        <section class="prova-gratuita d-flex jcont-cent alg-items lightblue">
+        <section class="prova-gratuita d-flex jcont-cent alg-items basecolor ptb-20">
             <div class="container d-flex">
                 <div class="testo-lft d-flex jcont-cent alg-items">
-                    <h2 class="txt-w8 f-brown">Porta Dropbox Business nella tua azienda.</h2>
+                    <h2 class="f-brow">Porta Dropbox Business nella tua azienda.</h2>
                 </div>
                 <div class="testo-rgt d-flex jcont-cent alg-items">
-                    <a href="#">Inizia la tua prova gratuita</a>
+                    <a href="#" class="btn-white">Inizia la tua prova gratuita</a>
                 </div>
             </div>
         </section>
@@ -373,22 +374,32 @@
               <hr class="">
               <div class="quest d-flex jcont-betw">
                 <div class="foot-txt">
-                     <p class="wei-bold ptb-20 fs-15">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                     <p class="pt-20 hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga labore voluptatem molestias aliquid quisquam, harum, est quasi veritatis ipsam eos adipisci asperiores modi iure! Quibusdam voluptates dolorem exercitationem nulla!
+                     <p class="wei-bold ptb-20 fs-15 txt-w2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                     <p class="pt-20 hide txt-w2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga labore voluptatem molestias aliquid quisquam, harum, est quasi veritatis ipsam eos adipisci asperiores modi iure! Quibusdam voluptates dolorem exercitationem nulla!
                      Possimus mollitia sapiente nesciunt, explicabo molestias reiciendis incidunt ipsam quasi voluptatibus voluptatum voluptates accusantium eligendi unde modi rerum inventore soluta distinctio. Ea molestiae iusto sint nulla optio, tempora nisi nobis!
                      Repudiandae, esse. Explicabo rerum tempore quo ratione, voluptate sequi qui porro veniam a quibusdam voluptatum laborum repellat vel aliquid necessitatibus sed! Velit repudiandae nemo odit eaque nesciunt officia quia epudiandae odio at a sint, fugiat debitis. Illum cumque dolorem ipsa distinctio delectus repellendus ea voluptatibus! Tempora.</p>
                 </div>
-                <i class="fa-solid fa-angle-down f-black pr-5 pt-25"></i>
+                <i class="fa-solid fa-angle-down f-black pr-5 pt-25 quest-angle"></i>
               </div>
               <hr>
-              <div class="quest d-flex jcont-betw alg-items">
-                <p class="wei-bold ptb-20 fs-15">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <i class="fa-solid fa-angle-down f-black pr-5"></i>
+              <div class="quest d-flex jcont-betw">
+                <div class="foot-txt">
+                     <p class="wei-bold ptb-20 fs-15 txt-w2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                     <p class="pt-20 hide txt-w2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga labore voluptatem molestias aliquid quisquam, harum, est quasi veritatis ipsam eos adipisci asperiores modi iure! Quibusdam voluptates dolorem exercitationem nulla!
+                     Possimus mollitia sapiente nesciunt, explicabo molestias reiciendis incidunt ipsam quasi voluptatibus voluptatum voluptates accusantium eligendi unde modi rerum inventore soluta distinctio. Ea molestiae iusto sint nulla optio, tempora nisi nobis!
+                     Repudiandae, esse. Explicabo rerum tempore quo ratione, voluptate sequi qui porro veniam a quibusdam voluptatum laborum repellat vel aliquid necessitatibus sed! Velit repudiandae nemo odit eaque nesciunt officia quia epudiandae odio at a sint, fugiat debitis. Illum cumque dolorem ipsa distinctio delectus repellendus ea voluptatibus! Tempora.</p>
+                </div>
+                <i class="fa-solid fa-angle-down f-black pr-5 pt-25 quest-angle"></i>
               </div>
               <hr>
-              <div class="quest d-flex jcont-betw alg-items">
-                <p class="wei-bold ptb-20 fs-15">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <i class="fa-solid fa-angle-down f-black pr-5"></i>
+              <div class="quest d-flex jcont-betw">
+                <div class="foot-txt">
+                     <p class="wei-bold ptb-20 fs-15 txt-w2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                     <p class="pt-20 hide txt-w2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga labore voluptatem molestias aliquid quisquam, harum, est quasi veritatis ipsam eos adipisci asperiores modi iure! Quibusdam voluptates dolorem exercitationem nulla!
+                     Possimus mollitia sapiente nesciunt, explicabo molestias reiciendis incidunt ipsam quasi voluptatibus voluptatum voluptates accusantium eligendi unde modi rerum inventore soluta distinctio. Ea molestiae iusto sint nulla optio, tempora nisi nobis!
+                     Repudiandae, esse. Explicabo rerum tempore quo ratione, voluptate sequi qui porro veniam a quibusdam voluptatum laborum repellat vel aliquid necessitatibus sed! Velit repudiandae nemo odit eaque nesciunt officia quia epudiandae odio at a sint, fugiat debitis. Illum cumque dolorem ipsa distinctio delectus repellendus ea voluptatibus! Tempora.</p>
+                </div>
+                <i class="fa-solid fa-angle-down f-black pr-5 pt-25 quest-angle"></i>
               </div>
               <hr>
            </div>
@@ -445,7 +456,13 @@
         </div>
         <div class="big-container mb-50">
             <hr class="w50 f-gray ml-30 mb-20">
-            <p class="f-white pr-5"><i class="fa-solid fa-earth-europe f-white fs-10 ml-30 pr-5"></i>italiano <i class="fa-solid fa-caret-down f-white fs-10"></i></p>
+            <i class="fa-solid fa-earth-europe f-white fs-13 ml-30 pr-5"></i>
+            <select name="language" id="lingue">
+                <option value="Italiano">Italiano</option>
+                <option value="Inglese">Inglese</option>
+                <option value="Tedesco">Tedesco</option>
+            </select>
+            <!--<p class="f-white pr-5"><i class="fa-solid fa-earth-europe f-white fs-10 ml-30 pr-5"></i>italiano <i class="fa-solid fa-caret-down f-white fs-10"></i></p>-->
         </div>
     </footer>
     
