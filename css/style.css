@@ -202,7 +202,6 @@ main{
 }
 .quest:hover + .quest-angle{
     transform: rotate(180deg);
-    
     padding-top: 25px;
     padding-right: 5px;
 }
