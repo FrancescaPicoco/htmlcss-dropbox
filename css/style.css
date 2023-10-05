@@ -139,11 +139,11 @@ main{
 }
 .enter-lft{
     width: 70%;
-    min-height: 20.25em;
+    min-height: 15em;
 }
 .enter-rgt{
     width: 30%;
-    min-height: 20.25em;
+    min-height: 15em;
 }
    /**Partners**/
 .partner-img{
@@ -213,7 +213,6 @@ main{
 footer{
     width: 100%;
     min-height: 13.5em;
-    background-color: cornflowerblue;
 }
 .foot-column{
     line-height:1.5;
