@@ -204,20 +204,26 @@ main{
     width: 50%;
 }
       /***Quest***/
+.quest{
+    height: 60px;
+    overflow: hidden;
+}
 .quest:hover{
     overflow: visible;
     background-color: white;
     min-height: 13em;
+    transform: 10s;
+}
+.quest-angle:hover{
+    transform: rotate(180deg);
+    /*transition: none;*/
 }
 /*.quest:hover + .quest-angle{
     transform: rotate(180deg);
     padding-top: 25px;
     padding-right: 5px;
 }*/
-.quest{
-    height: 60px;
-    overflow: hidden;
-}
+
    /**Footer**/
 footer{
     width: 100%;

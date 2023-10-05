@@ -62,18 +62,12 @@
   .mt-5{margin-top: 0.3125rem;} /*5px*/
   .mr-5{margin-right: 0.3125rem;}
   .ml-5{margin-left: 0.3125rem;} 
-
-  .mb-5{margin-bottom: 0.3125rem;}
-  .mtb-5{margin-top: 5px 0;}
-        
-  .mt-10{margin-top: 10px;} 
+  .mb-5{margin-bottom: 0.3125rem;}     
+  .mt-10{margin-top: 10px;}   /*10*/
   .mb-10{margin-bottom: 10px;}
-
-  .ml-10{margin-left:0.625rem;} /*10*/
-
+  .ml-10{margin-left:0.625rem;} 
   .ml-15{margin-left: 0.9375rem;} /*15*/ 
   .mr-15{margin-right:  0.9375em;}
-  .mtb-15{margin: 15px 0;}  
   .mt-20{margin-top: 1.25rem;} /*20*/
   .mb-20{margin-bottom: 1.25rem;}
   .mtb-20{margin-top: 1.25rem;
@@ -81,17 +75,16 @@
   .mtb-30{margin: 1.875rem 0;} /*30px*/
   .mt-50{margin-top: 3.125rem;}  /*50px*/
   .mb-50{margin-bottom: 3.125rem;} /*50px*/
-  .ml-85{margin-left: 5.3125rem;}  /*85px*/
+  .ml-116{margin-left: 7.25em;}  /*116px*/
   .mt-130{margin-top: 8.125rem;}  /*130px*/
 
        /*Padding*/
   .pdd-5{padding: 5px;}
   .pr-5{padding-right: 0.3125rem;} /*5*/
   .ptb-5{padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;}
-
-  .p-angle{padding: 5px 5px 0 5px}
+        padding-bottom: 0.3125rem;}
   .pt-5{padding-top: 5px;}
+  .p-angle{padding: 5px 5px 0 5px}
 
   .pt-06{padding-top: 0.625rem;}  /*10px*/
   .pl-10{ padding-left: 0.625rem;}
@@ -107,10 +100,8 @@
   .pt-20{padding-top: 1.25rem;}
   .pl-20{padding-left: 1.25rem;} 
   .pt-25{padding-top: 1.5625rem;} /*25px*/
-
   .pdd-30{padding: 1.875rem;} /*30px*/
   .pt-30{padding-top: 1.875rem;}
-
   .pt-40{padding-top: 2.5rem;} /*40px*/
   .pb-40{padding-bottom: 2.5rem;}
   .pt-50{padding-top: 3.125rem;} /*50px*/
@@ -142,12 +133,11 @@
   .ic{filter: invert(1);}
   
     /***Link Style***/
-  a{text-decoration: none;
-    color:black;}
+  a{text-decoration: none;}
   .buynow {
-    text-decoration: underline;
-    color: rgb(0, 89, 255);
-  }
+      text-decoration: underline;
+      color: rgb(0, 89, 255);
+    }
 
   
   
