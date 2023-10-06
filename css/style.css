@@ -71,11 +71,11 @@ main{
     padding-top: 3em;
 }
 .big-container{
-    width: 60em; /*60vw;*/
+    width: 70%; /*60vw;*/
     min-height: 5em;
 }
 .container{
-    width: 50em;
+    width: 50%;
     min-height: 2.7em;
     margin-bottom: 30px;
 }
